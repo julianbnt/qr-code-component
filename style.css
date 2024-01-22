@@ -15,7 +15,6 @@ body {
 .card {
   width: 17rem;
   background-color: hsl(0, 0%, 100%);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
   padding: 1rem;
   border-radius: 0.75rem;
   margin-bottom: 1.5rem;
@@ -26,7 +25,7 @@ body {
 }
 .card__paragraph {
   color: hsl(220, 15%, 55%);
-  font-size: 0.938rem;
+  font-size: 0.94rem;
   font-weight: 400;
 }
 .card__heading {
@@ -34,8 +33,15 @@ body {
   font-size: 1.375rem;
   font-weight: 700;
 }
-.card__paragraph,
-.card__heading {
+.card__paragraph, .card__heading {
   text-align: center;
   padding: 0 0.5rem;
-} /*# sourceMappingURL=style.css.map */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

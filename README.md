@@ -30,6 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Flexbox
 - Tried using "BEM" to name the elements in HTML/CSS
+- SCSS
 
 ### Continued development
 
